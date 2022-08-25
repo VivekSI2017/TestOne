@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
     fun displayWelcomeMessage(){
 
         Toast.makeText(
-            this@MainActivity, mFirebaseRemoteConfig.getString("version")+": Test"
+            this@MainActivity, mFirebaseRemoteConfig.getString("version")
            , Toast.LENGTH_SHORT
         ).show()
 
