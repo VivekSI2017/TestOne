@@ -80,9 +80,10 @@ class MainActivity : AppCompatActivity() {
     fun displayWelcomeMessage(){
 
         Toast.makeText(
-            this@MainActivity, mFirebaseRemoteConfig.getString("version")+" Test3"
+            this@MainActivity, mFirebaseRemoteConfig.getString("version")
            , Toast.LENGTH_SHORT
         ).show()
+        Log.d("v","x")
     }
 
     private fun setUpGoogle() {
