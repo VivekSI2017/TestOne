@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
 
 
         Toast.makeText(
-            this@MainActivity, mFirebaseRemoteConfig.getString("version")
+            this@MainActivity, mFirebaseRemoteConfig.getString("version")+"New"
            , Toast.LENGTH_SHORT
         ).show()
 
