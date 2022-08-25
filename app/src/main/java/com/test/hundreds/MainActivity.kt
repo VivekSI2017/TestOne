@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
             this@MainActivity, mFirebaseRemoteConfig.getString("version")
            , Toast.LENGTH_SHORT
         ).show()
-        Log.d("v","x")
+        Log.d("v","v")
     }
 
     private fun setUpGoogle() {
