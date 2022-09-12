@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                     ).show()
                 } else {
                     Toast.makeText(
-                        this@MainActivity, "Fetch failed",
+                        this@MainActivity, "Fetch failed"+mFirebaseRemoteConfig.getString("version"),
                         Toast.LENGTH_SHORT
                     ).show()
                 }
