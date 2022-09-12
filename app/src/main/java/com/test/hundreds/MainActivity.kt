@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
 //                    )
 //                )
             },
-            onFailed = { Toast.makeText(this,"failed to fetch FB data",Toast.LENGTH_SHORT).show() }
+            onFailed = { Toast.makeText(this,"failed to fetch FB data"+"toast",Toast.LENGTH_SHORT).show() }
         )
     }
 
