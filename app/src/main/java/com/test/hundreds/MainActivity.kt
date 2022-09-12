@@ -85,7 +85,6 @@ class MainActivity : AppCompatActivity() {
            , Toast.LENGTH_SHORT
         ).show()
         Log.d("v","v")
-        Log.d("f","f")
         Log.d("x","y")
 
     }
