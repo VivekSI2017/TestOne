@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                     ).show()
                 } else {
                     Toast.makeText(
-                        this@MainActivity, "Fetch failed",
+                        this@MainActivity, "Fetch failed"+mFirebaseRemoteConfig.getString("version"),
                         Toast.LENGTH_SHORT
                     ).show()
                 }
@@ -85,8 +85,7 @@ class MainActivity : AppCompatActivity() {
            , Toast.LENGTH_SHORT
         ).show()
         Log.d("v","v")
-        Log.d("f","f")
-        Log.d("x","x")
+        Log.d("x","y")
 
     }
 
@@ -106,7 +105,7 @@ class MainActivity : AppCompatActivity() {
 //                    )
 //                )
             },
-            onFailed = { Toast.makeText(this,"failed to fetch FB data",Toast.LENGTH_SHORT).show() }
+            onFailed = { Toast.makeText(this,"failed to fetch FB data"+"toast",Toast.LENGTH_SHORT).show() }
         )
     }
 
