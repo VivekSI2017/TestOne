@@ -86,6 +86,7 @@ class MainActivity : AppCompatActivity() {
         ).show()
         Log.d("v","v")
         Log.d("f","f")
+        Log.d("x","x")
 
     }
 
